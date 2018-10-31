@@ -2,6 +2,12 @@
 
 有道翻译网页版爬虫，仅支持中译英及英译中，且不处理输出结果
 
+## 使用
+
+```bash
+go get github.com/iPeven/ydfy
+```
+
 ## 示例
 
 ```go
@@ -9,7 +15,7 @@ package main
 
 import (
 	"fmt"
-	"yd/ydfy"
+	"github.com/iPeven/ydfy"
 )
 
 func main() {
