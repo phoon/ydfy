@@ -5,7 +5,7 @@
 ## 使用
 
 ```bash
-go get github.com/iPeven/ydfy
+go get github.com/phoon/ydfy
 ```
 
 ## 示例
@@ -15,7 +15,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/iPeven/ydfy"
+	"github.com/phoon/ydfy"
 )
 
 func main() {
