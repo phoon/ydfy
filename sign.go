@@ -12,6 +12,6 @@ func timestamp() string {
 }
 
 func sign(e, t string) string {
-	data := []byte("fanyideskweb" + e + t + "n%A-rKaT5fb[Gy?;N5@Tj")
+	data := []byte("fanyideskweb" + e + t + "Tbh5E8=q6U3EXe+&L[4c@")
 	return fmt.Sprintf("%x", md5.Sum(data))
 }
